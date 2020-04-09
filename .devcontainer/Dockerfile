@@ -11,4 +11,5 @@ RUN apt-get -y --fix-missing install libssl-dev
 RUN apt-get -y --fix-missing install curl
 RUN apt-get -y --fix-missing install xz-utils
 RUN apt-get -y --fix-missing install rsync
+RUN apt-get -y --fix-missing install gnupg
 RUN curl -fsS https://dlang.org/install.sh | bash -s dmd
