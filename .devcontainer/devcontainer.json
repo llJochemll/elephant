@@ -1,0 +1,9 @@
+
+{
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "ms-vscode.cpptools",
+        "pflannery.vscode-versionlens",
+        "webfreak.code-d"
+    ]
+}
