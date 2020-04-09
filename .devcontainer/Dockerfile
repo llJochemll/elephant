@@ -1,6 +1,8 @@
 FROM ubuntu:20.04
 LABEL Name=elephant-devcontainer Version=0.0.0
 
+RUN DEBIAN_FRONTEND="noninteractive"
+
 # install required packages
 RUN apt-get update
 RUN apt-get -y --fix-missing install git
